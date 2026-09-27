@@ -1,7 +1,12 @@
+:root{
+    --primaryFont:Poppins;
+}
+
 .item{
    color: #5B5B5B;
    width:calc( ( 100% - 180px ) / 4 );
    margin-right: 60px;
+   font-family:var(--primaryFont);
 }
 .logos{
     display: flex;
@@ -11,20 +16,19 @@
 }
 .logos a{
     color: #000000;
+     font-family:var(--primaryFont);
 }
 .all{
    background-color: #9DCCFF; 
     width: 100%;
 }
 
-
 .dem{
      display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 400px;
-    
-    font-family: var(--primaryFont);
+    font-family:Poppins;
 }
 
 .dem h1{
@@ -35,7 +39,7 @@
 .dem a{
     
     color: #49BBBD;
-    margin: 70px 120px 30px 50px;
+    margin: 50px 50px 35px 5px;
     
 }
 .lesson{
