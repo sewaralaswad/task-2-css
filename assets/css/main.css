@@ -90,6 +90,133 @@
     font-family: var(--primaryFont);
 }
 
+.favourite{
+    width: calc( ( 100% - 100px ) / 4 );
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 20px;
+}
+.favourite p{
+    width: 313.74px;
+    font-size: 18px;
+    font-family: var(--primaryFont);
+    margin: 25px 5px 59px;
+}
+.favourite h3{
+    font-size: 30px;
+    font-family: var(--primaryFont);
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin: auto;
+}
+
+.i{
+    width: 99.08px;
+    height: 90px;
+    background-color: #49BBBD4D;
+    padding:27px;
+    margin: 30px 100px 20px 100px;
+}
+.i img{
+    width: 33.03px;
+    height: 35px;
+    
+    
+}
+.ii{
+    width: 99.08px;
+    height: 90px;
+    background-color:#5B72EE4D ;
+    padding:27px;
+    margin: 30px 100px 20px 100px;
+}
+.ii img{
+    width: 33.03px;
+    height: 35px;
+    
+    
+}
+.iii{
+    width: 99.08px;
+    height: 90px;
+    background-color:#9DCCFF4D;
+    padding:27px;
+    margin: 30px 100px 20px 100px;
+}
+.iii img{
+    width: 33.03px;
+    height: 35px;
+    
+    
+}
+.iiii{
+    width: 99.08px;
+    height: 90px;
+    background-color:#00CBB84D ;
+    padding:27px;
+    margin: 30px 100px 20px 100px;
+}
+.iiii img{
+    width: 33.03px;
+    height: 35px;
+    
+    
+}
+.I{
+    width: 99.08px;
+    height: 90px;
+    background-color:#F48C064D ;
+    padding:27px;
+    margin: 30px 100px 20px 100px;
+}
+.I img{
+    width: 33.03px;
+    height: 35px;
+    
+    
+}
+.II{
+    width: 99.08px;
+    height: 90px;
+    background-color:#EE645B4D ;
+    padding:27px;
+    margin: 30px 100px 20px 100px;
+}
+.II img{
+    width: 33.03px;
+    height: 35px;
+    
+    
+}
+.III{
+    width: 99.08px;
+    height: 90px;
+    background-color: #2526414D;
+    padding:27px;
+    margin: 30px 100px 20px 100px;
+}
+.III img{
+    width: 33.03px;
+    height: 35px;
+    
+    
+}
+.IIII{
+    width: 99.08px;
+    height: 90px;
+    background-color:#00CBB84D ;
+    padding:27px;
+    margin: 30px 100px 20px 100px;
+}
+.IIII img{
+    width: 33.03px;
+    height: 35px;
+    
+    
+}
 @media screen and (min-width:320px) and (max-width:600px) {
     .items{
         display: none;
