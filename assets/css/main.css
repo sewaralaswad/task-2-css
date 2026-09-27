@@ -1,0 +1,14 @@
+.item{
+   color: #5B5B5B;
+   width:calc( ( 100% - 180px ) / 4 );
+   margin-right: 60px;
+}
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.logos a{
+    color: #000000;
+}
