@@ -12,10 +12,92 @@
 .logos a{
     color: #000000;
 }
+.all{
+   background-color: #9DCCFF; 
+    width: 100%;
+}
+
+
+.dem{
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 400px;
+    
+    font-family: var(--primaryFont);
+}
+
+.dem h1{
+    padding: 52px 12px;
+    color: #252641;
+    
+}
+.dem a{
+    
+    color: #49BBBD;
+    margin: 70px 120px 30px 50px;
+    
+}
+.lesson{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 40px 70px;
+    justify-content: space-between;
+}
+.per{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 350px;
+}
+[src="./assets/img/Group 40 (1).webp"]{
+    width: 100%;
+}
+[src="./assets/img/Group 40 (2).webp"]{
+    width: 100%;
+}
+[src="./assets/img/Group 40 (3).webp"]{
+    width: 100%;
+}
+[src="./assets/img/Group 273.webp"]{
+  width: 100%;   
+}
+
+.per h3{
+    margin-top: 12px;
+    margin-bottom: 16px;
+    font-family: var(--primaryFont);
+    color: #252641;
+    
+}
+.per h5{
+    font-family: var(--primaryFont);
+    margin-left: 225px;
+    margin-top: 12px;
+    
+}
+.logos img{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.head h2{
+    margin-top: 82px;
+    margin-bottom: 53px;
+    font-size: 36px;
+    font-family: var(--primaryFont);
+}
+
 @media screen and (min-width:320px) and (max-width:600px) {
     .items{
         display: none;
     }
+    .head h2{
+        font-size: 20px;
+    }
+
     
 }
 @media screen and (min-width:601px) and (max-width:992px) {
