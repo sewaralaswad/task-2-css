@@ -345,16 +345,104 @@
     
 }
 
-
-
+.f{
+    background-color: #252641;
+    overflow: hidden;
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.foot img{
+    border-right: 1px #626381 solid;
+    margin-top: 74px;
+    padding-right: 80px;
+}
+.foot h4{
+    font-size:22px;
+    font-family: var(--primaryFont);
+    color: #FFFFFF;
+    margin-top: 83px;
+    margin-left: 44px;
+    align-items: center;
+    width: 160px;
+    font-weight: 600;
+}
+.new h4{
+   font-size: 26px;
+   font-weight: 500;
+   font-family: var(--primaryFont);
+   margin-top: 95px;
+   color: #B2B3CF;
+   justify-content: center;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.Subscribe{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Subscribe input{
+    background-color:#252641;
+    width: 400px;
+    height: 60px;
+    border-radius: 80px;
+    border: 1px #83839A solid;
+    margin-right: 21px;
+    padding: 15px 274px 15px 32px;
+}
+button{
+    background-color: #49BBBD;
+    font-family: var(--primaryFont);
+    font-size: 22px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 60px;
+    border: 1px #49BBBD solid;
+    padding: 14px 36px;
+    margin-left: 20px;
+}
+.condition{
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 96px;
+    
+}
+.condition a{
+    font-family: var(--primaryFont);
+    font-size: 22px;
+    font-weight: 400;
+    color: #B2B3CF;
+    padding-right: 21px;
+    padding-left: 21px;
+    border-right: 1px #626381 solid;
+}
+.bor a{
+    border-right: 0px #626381 solid;
+}
+.end{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.end h5{
+     font-family: var(--primaryFont);
+    font-size: 22px;
+    font-weight: 400;
+    color: #B2B3CF;
+}
 @media screen and (min-width:320px) and (max-width:600px) {
     .items{
         display: none;
     }
-    .head h2{
-        font-size: 20px;
-    }
-
     
 }
 @media screen and (min-width:601px) and (max-width:992px) {
