@@ -340,6 +340,12 @@
     width: 100%;
 }
 
+.reco{
+    width: 100%;
+    
+}
+
+
 
 @media screen and (min-width:320px) and (max-width:600px) {
     .items{
